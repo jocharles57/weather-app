@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Weather App</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="container">
+		<div class="current">
+			<div class="city"></div>
+			<div class="date"></div>
+			<div class="temp"></div>
+			<div class="icon"></div>
+			<div class="description"></div>
+			<div class="chooser">
+				<span class="c">C</span>
+				<div class="switch ">
+					<div class="toggle"></div>
+				</div>
+				<span class="f">F</span>
+			</div>
+		</div>
+		<!-- end .current -->
+		<div class="forecast">
+			<div class="head">Daily</div>
+			<div class="day col-1-3 active">
+				<div class="date"></div>
+				<div class="icon"></div>
+				<div class="max"></div>
+				<div class="min"></div>
+				<div class="description"></div>
+				<div class="triangle"></div>
+			</div>
+			<div class="day col-1-3">
+				<div class="date"></div>
+				<div class="icon"></div>
+				<div class="max"></div>
+				<div class="min"></div>
+				<div class="description"></div>
+				<div class="triangle"></div>
+			</div>
+			<div class="day col-1-3">
+				<div class="date"></div>
+				<div class="icon"></div>
+				<div class="max"></div>
+				<div class="min"></div>
+				<div class="description"></div>
+				<div class="triangle"></div>
+			</div>
+		</div>
+	</div>
+	<!-- end .forecast -->
+	<div class="details">
+
+	</div>
+	<!-- end .details -->
+	</div>
+	<!-- end .container -->
+
+	<!-- Shows a spinner while data is loading. -->
+	<div class="spinner"></div>
+
+	<!--<script src='https://code.jquery.com/jquery-2.2.4.min.js'></script> -->
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+	<script src="js/weather.js"></script>
+</body>
+
+</html>
