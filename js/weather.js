@@ -5,7 +5,7 @@ var lat;
 var lon;
 // Location data from http://ip-api.com/
 // Weather info from OpenWeatherMap, http://openweathermap.org/
-var locationServiceUrl = "http://ip-api.com/json/?";
+var locationServiceUrl = "https://freegeoip.net/json/";
 var baseUrl = "http://api.openweathermap.org/data/2.5/";
 
 var temperature = 0;
@@ -55,8 +55,8 @@ qsAll(".day").forEach(function (day) {
 // Get location, then current weather, then forecast.
 getLocation().then(function (result) {
     console.log(result);
-    lat = JSON.parse(result).lat;
-    lon = JSON.parse(result).lon;
+    lat = JSON.parse(result).latitude;
+    lon = JSON.parse(result).longitude;
     return getCurrent(lat, lon);
 }).then(function (result) {
     console.log(result);
