@@ -27,7 +27,7 @@ $(document).ready(function () {
   // Location data from http://ip-api.com/
   // Weather info from OpenWeatherMap, http://openweathermap.org/
   function getWeather(scaleType) {
-    var key = "5bba3b5982f6dffaa404f6489e277b78";
+    var key = "Key from OpenWeatherMap goes here";
     var units = "";
     var type = "";
 
