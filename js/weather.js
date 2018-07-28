@@ -3,7 +3,7 @@ var key = "Key from OpenWeatherMap goes here";
 var units = "metric";
 var lat;
 var lon;
-// Location data from http://ip-api.com/
+// Location data from https://freegeoip.net/
 // Weather info from OpenWeatherMap, http://openweathermap.org/
 var locationServiceUrl = "https://freegeoip.net/json/";
 var baseUrl = "http://api.openweathermap.org/data/2.5/";
