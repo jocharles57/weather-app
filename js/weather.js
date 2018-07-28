@@ -1,5 +1,5 @@
 
-var key = "5bba3b5982f6dffaa404f6489e277b78";
+var key = "Key from OpenWeatherMap goes here";
 var units = "metric";
 var lat;
 var lon;
